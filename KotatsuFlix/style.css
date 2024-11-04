@@ -1,14 +1,35 @@
 body{
     color:darkred;
     background-color: lightsalmon;
-    margin: 20px;
-    padding-left: 20px;
+    margin: 10px;
+    padding-left: 10px;
     font-family: "Noto Serif JP", serif;
     font-optical-sizing: auto;
 }
 
 header{
     border-bottom: solid 1px rgb(253, 81, 38);
-    margin: 15px;
+    margin: 10px;
 }
 
+.text-base1 {
+    margin-right: 5%;
+}
+
+.videos-recomd{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.video-main{
+    background:rgb(49, 49, 49);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 150px;
+}
