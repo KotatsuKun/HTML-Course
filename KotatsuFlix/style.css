@@ -1,10 +1,14 @@
 body{
     color:darkred;
     background-color: lightsalmon;
-    margin: 0px;
+    margin: 20px;
+    padding-left: 20px;
+    font-family: "Noto Serif JP", serif;
+    font-optical-sizing: auto;
 }
 
 header{
     border-bottom: solid 1px rgb(253, 81, 38);
     margin: 15px;
 }
+
