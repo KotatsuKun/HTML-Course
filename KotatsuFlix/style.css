@@ -59,12 +59,27 @@ header{
     gap: 10px;
 }
 
-.video-main{
+
+.bg-akira-1{
+    background-image: url(https://i.pinimg.com/originals/42/40/0f/42400fc3bf053134943cffe21cd78a26.jpg);
+    background-size:cover;
     padding-bottom: 40px;
     padding-top: 40px;
     display: flex;
     justify-content: center;
 }
+
+.akira-content{
+    background-color: rgba(255, 255, 255, 0.01);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    display: flex;
+    margin-top: -40px;
+    margin-bottom: -40px;
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
 
 .videos-recomd img{
     opacity: 0.5;
