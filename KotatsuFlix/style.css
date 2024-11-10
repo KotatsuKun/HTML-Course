@@ -21,6 +21,9 @@ header{
     line-height: 150px;
     width: 150px;
     border-radius: 5%;
+    background-image: url(https://img.youtube.com/vi/cMx5ajcWnMU/maxresdefault.jpg);
+    background-size:cover;
+    background-blend-mode: overlay;
     background-color: #D93D04;
     border-color: #D93D04 ;
     transition-duration: 0.2s;
@@ -30,7 +33,7 @@ header{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     width: 155px;
     line-height: 155px;
-    background-color: #F2D5A0;
+    background-color: #f7490a;
     border-color: #D93D04;
 }
 
