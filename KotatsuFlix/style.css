@@ -12,15 +12,42 @@ header{
     margin: 10px;
 }
 
-.text-base1 {
-    color:#D93D04;
-    margin-right: 5%;
-    font-family: "Noto Serif JP", serif;
-    font-optical-sizing: auto;
+.Choices-main{
+    background: #F2D5A0;
+    padding-left: 5%;
 }
 
-.text-base2{
-  text-shadow: 2px 2px white;
+.Choices-main button{
+    line-height: 150px;
+    width: 150px;
+    border-radius: 5%;
+    background-color: #D93D04;
+    border-color: #D93D04 ;
+    transition-duration: 0.2s;
+}
+
+.Choices-main button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    width: 155px;
+    line-height: 155px;
+    background-color: #F2D5A0;
+    border-color: #D93D04;
+}
+
+.text-main1{
+    padding-left: 45%;
+}
+
+
+
+
+.text-base1 {
+    text-shadow: 2px 2px 2px #D93D04;
+    color:#ffffff;
+    padding-right: 10%;
+    padding-left: 5%;
+    font-family: "DotGothic16", sans-serif;
+    font-optical-sizing: auto;
 }
 
 
@@ -33,7 +60,6 @@ header{
 }
 
 .video-main{
-    background:#010326;
     padding-bottom: 40px;
     padding-top: 40px;
     display: flex;
@@ -47,6 +73,7 @@ header{
 
 .videos-recomd img:hover{
     opacity: 1.0;
+    justify-content: center;
     height: 155px;
     
 }
