@@ -19,13 +19,19 @@ header{
 .Choices-main button{
     line-height: 150px;
     width: 150px;
-    border-radius: 5%;
-    background-image: url(https://img.youtube.com/vi/cMx5ajcWnMU/maxresdefault.jpg);
     background-size:cover;
     background-blend-mode: overlay;
     background-color: #D93D04;
     border-color: #D93D04 ;
     transition-duration: 0.2s;
+}
+
+.akira-button {
+    background-image: url(https://img.youtube.com/vi/cMx5ajcWnMU/maxresdefault.jpg);
+}
+
+.saibou-button{
+    background-color: #8C513B;
 }
 
 .Choices-main button:hover{
@@ -34,4 +40,8 @@ header{
     line-height: 155px;
     background-color: #f7490a;
     border-color: #D93D04;
+}
+
+.text-main1{
+    padding-left: 45%;
 }
