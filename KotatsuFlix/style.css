@@ -51,7 +51,6 @@ header{
     margin-right: -30px;
 }
 
-
 .videos-recomd img{
     opacity: 0.5;
     height: 150px;
@@ -60,6 +59,19 @@ header{
 .videos-recomd img:hover{
     opacity: 1.0;
     justify-content: center;
+    transition: 0.5s ease-in-out;
     height: 155px;
     
+}
+
+.home-button{
+
+
+    height: 100px;
+    width: 100px;
+    background-image: url(https://cdn.discordapp.com/attachments/1091525836655571064/1306820927480139856/HOME_ICON.png?ex=67380f54&is=6736bdd4&hm=967770f70572a11942150a08a70863a7a17f5a49757408e0d7bc84fa1a195c3c&);
+    background-size: cover;
+    background-color: transparent;
+    color: transparent;
+    border-color: transparent;
 }

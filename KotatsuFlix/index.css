@@ -24,15 +24,17 @@ header{
 }
 
 .images-recomend img{
-    width: 400px;
-    height: 200px;
+    display: flex;
+    width: 30%;
+    height: 30%;
     box-shadow: 2px 2px 1px black ;
 }
 
+
 .images-recomend img:hover{
-    width: 410px;
-    height: 210px;
-    background:linear-gradient(left, rgb(0, 0, 0), rgb(0, 0 , 0, 0) );
+    width: 35%;
+    height: 35%;
+    transition: 0.2s;
 }
 
 .Choices-main{
@@ -44,37 +46,39 @@ header{
 }
 
 .buttons-main{
+    display: flex;
+    gap: 10px;
     padding-top: 3%;
     padding-bottom: 3%;
 }
 
 
 .Choices-main button{
-    line-height: 150px;
-    width: 150px;
-    background-size:cover;
-    background-blend-mode: overlay;
-    background-color: #710080;
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     border-color: transparent ;
-    transition-duration: 0.2s;
+    background-color: transparent;
     color: transparent;
+    transition-duration: 0.2s;
 }
 
 .akira-button {
     background-image: url(https://img.youtube.com/vi/cMx5ajcWnMU/maxresdefault.jpg);
-    background-size: contain;
 }
 
 .saibou-button{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwTucrp8DHlf8ZSs7U0RvBnClKh3qxcyKwBg&s);
-    background-size: cover;
 }
 
 .Choices-main button:hover{
+    height: 270px;
+    width: 350px;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    width: 155px;
-    line-height: 155px;
     background-color: #89009b;
+    background-blend-mode: lighten;
     border-color: #89009b;
 }
 
