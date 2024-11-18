@@ -10,6 +10,7 @@ body{
 header{
     border-bottom: solid 1px #BF5A50;
     margin: 10px;
+    display: flex;
 }
 
 .text-base1 {
@@ -65,13 +66,19 @@ header{
 }
 
 .home-button{
-
-
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     background-image: url(https://cdn.discordapp.com/attachments/1091525836655571064/1306820927480139856/HOME_ICON.png?ex=67380f54&is=6736bdd4&hm=967770f70572a11942150a08a70863a7a17f5a49757408e0d7bc84fa1a195c3c&);
     background-size: cover;
     background-color: transparent;
     color: transparent;
     border-color: transparent;
+    margin-left: 80%;
+    margin-top: 2%;
+}
+
+.home-button:hover{
+    height: 60px;
+    width: 60px;
+    transition: 0.2s ease-in-out;
 }

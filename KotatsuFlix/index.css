@@ -1,92 +1,114 @@
-body{
+body {
     margin: 0%;
     color: rgb(149, 0, 255);
-    background: 
-    linear-gradient( rgb(0, 0, 0),rgba(255,255,255, 0.15)), 
-    url(https://i.pinimg.com/originals/04/1f/21/041f216971945cdd7fb67e6ab1fdc292.gif);
+    background:
+        linear-gradient(rgb(3, 3, 3), rgb(19, 19, 19));
+    /*url(https://i.pinimg.com/originals/04/1f/21/041f216971945cdd7fb67e6ab1fdc292.gif);
+    /*color(overlay rgba(0,0,0, 0.3))*/
     background-size: cover;
     font-family: "Noto Serif JP", serif;
     font-optical-sizing: auto;
 }
 
-header{
+header {
     position: sticky;
     top: 0;
     border-bottom: solid 1px rgba(245, 245, 245, 0.226);
-    text-decoration:overline;
+    background-color: rgb(14, 14, 14);
+    box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.404);
+
     z-index: 20;
 }
 
-.title{
-    padding-left: 1.5%;
-    font-family: Helvetica, sans-serif;
-    text-decoration: dashed;
+.title {
+    padding-left: 2%;
+    height: 10%;
+
 }
 
-.images-recomend img{
+.images-recomend img {
     display: flex;
     width: 30%;
     height: 30%;
-    box-shadow: 2px 2px 1px black ;
+    box-shadow: 2px 2px 1px black;
 }
 
 
-.images-recomend img:hover{
+.images-recomend img:hover {
     width: 35%;
     height: 35%;
     transition: 0.2s;
 }
 
-.Choices-main{
+.Choices-main {
     background-color: rgba(255, 255, 255, 0);
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
-    padding-left: 5%;
-    
+    display: flex;
+    padding-left: 0%;
+
 }
 
-.buttons-main{
-    display: flex;
+.buttons-main {
+    overflow-x: auto;
     gap: 10px;
     padding-top: 3%;
     padding-bottom: 3%;
 }
 
 
-.Choices-main button{
-    height: 250px;
-    width: 250px;
+.Choices-main button {
+    margin: 0%;
+    height: 315px;
+    width: 620px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-color: transparent ;
+    border-style: hidden;
     background-color: transparent;
     color: transparent;
     transition-duration: 0.2s;
 }
 
 .akira-button {
-    background-image: url(https://img.youtube.com/vi/cMx5ajcWnMU/maxresdefault.jpg);
+
+    background:
+        
+        url(https://img.youtube.com/vi/cMx5ajcWnMU/maxresdefault.jpg);
 }
 
-.saibou-button{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwTucrp8DHlf8ZSs7U0RvBnClKh3qxcyKwBg&s);
+.saibou-button {
+    background:
+        
+        url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwTucrp8DHlf8ZSs7U0RvBnClKh3qxcyKwBg&s);
 }
 
-.Choices-main button:hover{
-    height: 270px;
-    width: 350px;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    background-color: #89009b;
-    background-blend-mode: lighten;
-    border-color: #89009b;
+.akira-button:hover {
+
+    background:
+        linear-gradient(to right, rgb(24, 0, 41), rgba(0, 0, 0, 0.062)),
+        url(https://img.youtube.com/vi/cMx5ajcWnMU/maxresdefault.jpg);
 }
 
-.random{
+.saibou-button:hover {
+    background:
+        linear-gradient(to right, rgb(24, 0, 41), rgba(0, 0, 0, 0.062)),
+        url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwTucrp8DHlf8ZSs7U0RvBnClKh3qxcyKwBg&s);
+}
+
+
+.Choices-main button:hover {
+    height: 320px;
+    width: 630px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.random {
     text-align: center;
-    text-wrap: auto;
 }
 
-.text-main1{
+.text-main1 {
     padding-left: 45%;
 }
